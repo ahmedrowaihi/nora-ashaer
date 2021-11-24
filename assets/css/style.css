@@ -164,13 +164,12 @@ body {
   .section-location img {
     height: 500px;
     width: 500px;
-    margin-left: 12%;
   }
   .why .center-heading p {
     margin-bottom: 12px;
   }
   .section-location .left-image {
-    margin-left: -25%;
+    /* margin-left: -50%; */
   }
   .benefit .col-md-4 {
     margin-bottom: 6%;
@@ -191,9 +190,9 @@ body {
   .mobile-bottom-fix {
     margin-bottom: 30px;
   }
-  .mobile-bottom-fix-big {
+  /* .mobile-bottom-fix-big {
     margin-bottom: 60px;
-  }
+  } */
   .benefit .col-md-4 {
     margin-bottom: 6%;
   }
@@ -913,7 +912,8 @@ button.main-button:hover {
     rgba(241, 85, 106, 1) 100%
   );
   border: none;
-  padding: 14px 34px;
+  /* padding: 14px 34px; */
+  min-width: 7rem;
   margin: 2%;
 }
 .btn-secondary {
@@ -1112,6 +1112,7 @@ button.main-button:hover {
 
 #promotion {
   padding: 100px 0px;
+  padding-bottom: 0px;
 }
 
 #promotion .left-image {
@@ -1275,13 +1276,13 @@ button.main-button:hover {
     text-align: center;
   }
   footer .footer-content {
-    padding: 60px 0px !important;
+    padding: 30px 0px !important;
   }
 }
 
 footer {
-  margin-top: 200px;
-  padding-top: 120px;
+  /* margin-top: 200px;
+  padding-top: 120px; */
   background-image: url(../images/footer-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1290,7 +1291,7 @@ footer {
 }
 
 footer .footer-content {
-  padding: 120px 0px;
+  padding: 60px 0px;
 }
 
 .contact-form {
@@ -1480,10 +1481,12 @@ footer .sub-footer p {
     text-align: center;
   }
 }
+
 .section-location img {
-  margin-top: -15%;
-  height: 500px;
-  width: 500px;
+  margin-top: -10%;
+  height: 20rem;
+  width: 100%;
+  object-fit: contain;
 }
 
 .span4 img {
