@@ -5,14 +5,19 @@
   object-fit: cover;
 }
 
+@media (max-width: 1140px) {
+  .welcome-area {
+    background-size: 0% 0%;
+  }
+}
 @media (max-width: 1200px) {
   .logo img {
     height: 100px;
     width: 100px;
   }
-  .welcome-area {
+  /* .welcome-area {
     background-size: 100% 100%;
-  }
+  } */
 }
 
 .card {

@@ -982,7 +982,7 @@ button.main-button:hover {
   }
   .welcome-area .header-text {
     width: 92%;
-    padding-top: 793px;
+    padding-top: 10rem;
   }
   .welcome-area .header-text .left-text {
     margin-top: 5%;
@@ -995,7 +995,7 @@ button.main-button:hover {
   }
 
   .welcome-area .header-text {
-    padding-top: 100%;
+    padding-top: 10%;
     margin-left: 0;
   }
 
