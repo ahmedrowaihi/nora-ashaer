@@ -1,0 +1,27 @@
+/* Nora Custom */
+.logo img {
+  height: 90px;
+  width: 150px;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .logo img {
+    height: 100px;
+    width: 100px;
+  }
+  .welcome-area {
+    background-size: 100% 100%;
+  }
+}
+
+.card {
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 1em;
+}
+
+.card img {
+  overflow: hidden;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
